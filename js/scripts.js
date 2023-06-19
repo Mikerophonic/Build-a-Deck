@@ -10,5 +10,12 @@ for(let suitCounter = 0; suitCounter < 4; suitCounter++) {
 
 }
 
+ranks.forEach(function(rank) {
+    suits.forEach(function(suit) {
+        console.log(rank + " of " + suit);
+    });
+});
+
+
 
 
